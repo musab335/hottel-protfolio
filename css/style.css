@@ -1,0 +1,184 @@
+body{
+
+font-size: 16px;
+color: #fff;
+
+font-family: ;
+
+background-color: #61122f;
+color: 'oxygen'  sans-serief;
+  
+}
+/* Navbar Background */
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+/* Logo */
+#logo-img {
+  background: url('images\blue orange minimalist beach resort logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+  border-radius: 50%;
+}
+
+/* Brand */
+.navbar-brand {
+  padding-top: 25px;
+  display: inline-block;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Collapsible Navigation Styling */
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+#phone > a {
+  display: block;
+  color: #951C49;
+}
+
+#phone > div {
+  color: #557C3E;
+  text-align: right;
+  padding-right: 15px;
+}
+
+
+
+
+/* Style the collapsed mobile menu toggle button */
+.navbar-header button.navbar-toggle {
+  border: 1px solid #61122f;
+}
+
+/* Style the icon bars inside the toggle button */
+.navbar-header .icon-bar {
+  background-color: #61122f;
+
+}
+
+.navbar-header {
+  clear: both;
+}
+
+
+/* Clear float issue causing yellow bar height collapse */
+.navbar-header {
+  clear: both;
+}
+
+/* Reduce spacing for smaller screens using negative margin */
+.navbar-header button.navbar-toggle {
+  margin-top: -30px;
+}
+
+
+/* Large Devices */
+@media (min-width: 1200px) {
+  /* Add any large screen-specific styles here if needed */
+}
+
+
+/* Medium Devices: 992px – 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url('images/blue orange minimalist beach resort logo.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+    border-radius: 50%;
+  }
+}
+
+
+/* Small Devices: 768px – 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Add any styles for small screens here */
+}
+
+
+/* Extra Small Devices: 0px – 767px */
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+    margin-top: 5px;
+  }
+
+  #logo-img {
+    display: none; /* Hide logo on extra small screens */
+  }
+
+  .navbar-header {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-toggle {
+    float: right;
+    margin: 10px;
+  }
+}
+
+
+
+
