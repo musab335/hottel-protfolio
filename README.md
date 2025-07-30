@@ -35,7 +35,7 @@ A modern and responsive hotel management system for room booking, staff administ
 | **Backend**  | Node.js, Express.js / Django / Laravel    |
 | **Database** | MySQL / PostgreSQL / MongoDB              |
 | **Auth**     | JWT / Firebase / OAuth2                   |
-| **Payment**  | Stripe / Razorpay / PayPal                |
+| **Payment**  | easypasa/jazzcashe/zindagy             |
 
 ---
 
